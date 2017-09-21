@@ -5,6 +5,14 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+#form{
+    align-content: center;
+    background-color: #f8f8f8;
+    width: 500px;
+}
+body{
+    background-color: #3a945b;
+}
 
 li {
     float: left;
@@ -20,4 +28,15 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+div{
+
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    width: 300px;
 }

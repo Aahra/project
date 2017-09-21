@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+
+        input
+        {
+            background-color: bisque;
+
+            border: hidden;
+        }
+
+        label {
+            margin-top: 5px;
+            color: coral;
+            padding: 5px 5px 5px 5px ;
+
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div style="background-color: #888888;width: 100%;height: 50px">
+<h1 align="center">
+    CleverInvestor
+</h1>
+</div>
+<div align="center" id="main">
+<div style="width: 100%;height: 50px">
+
+</div>
+
+<div id="form" align="center" style=" width: 800px;height: 500px; background-color:#ebebec;">
+    <form method="post" action="../register.php">
+    <div style="background-color: #1cc7ff;height: 50px;width: 100%">
+        User Details
+    </div>
+
+    <div id="label" style="height: 350px;width: 50%;float: left">
+<div>
+    <label >Name:</label>
+</div>
+        <div>
+            <label>
+                Email:
+            </label>
+        </div>
+        <div>
+            <label>
+                Password:
+            </label>
+        </div>
+        <div>
+            <label>
+                Confirm Password:
+            </label>
+        </div>
+        <div>
+            <label>
+                D.O.B:
+            </label>
+        </div>
+        <div>
+            <label>
+                Gender:
+            </label>
+        </div>
+    </div>
+
+<div id="control" style="height:350px;width: 50%; float: left">
+
+    <div>
+        <input type="text" name="name">
+
+    </div>
+    <div>
+        <input type="text" name="email">
+
+    </div>
+    <div>
+        <input type="text" name="password">
+
+    </div>
+    <div>
+        <input type="text" name="confirmpassword">
+
+    </div>
+    <div>
+        <input type="text" name="dob">
+
+    </div>
+    <div>
+        Male<input type="radio" name="gender" value="male">
+
+        Female<input type="radio" name="gender" value="female">
+
+    </div>
+
+</div>
+<div>
+    <button type="submit">create my account</button>
+</div>
+
+
+
+</form>
+</div>
+
+</div>
+
+
+</body>
+</html>

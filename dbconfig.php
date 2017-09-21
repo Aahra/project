@@ -8,6 +8,8 @@
 
 
 require_once '../vendor/autoload.php';
-echo 'welcome';
+//echo 'welcome';
 $connection=new MongoDB\Client('mongodb://127.0.0.1:27017');
-echo 'database connection stablised';
+//echo 'database connection stablised';
+$db=$connection->test2;
+echo "data created";

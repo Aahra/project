@@ -8,12 +8,14 @@
 require 'dbconfig.php';
 
 $db=$connection->userdetails;
+print_r($connection);
 $collection->$db->register;
-echo "collection created";
+//echo "collection created";
+//print_r($collection);
 
 $regist=array("name"=>$_POST['name'],"email"=>$_POST['email'],"password"=>$_POST['password'],
     "dob"=>$_POST['dob'],"gender"=>$_POST['gender']);
-print_r($regist);
+//print_r($regist);
 $data=$collection->insertOne([$regist]);
 if($data==1)
 {

@@ -7,9 +7,12 @@
  */
 
 
-require_once '../vendor/autoload.php';
+require_once './vendor/autoload.php';
 //echo 'welcome';
-$connection=new MongoDB\Client('mongodb://127.0.0.1:27017');
+$con=new MongoDB\Client("mongodb://127.0.0.1:27017");
 //echo 'database connection stablised';
-$db=$connection->test2;
+//$db = $con->test7;
 echo "data created";
+//$regist=array("name"=>"amit","email"=>"12@gmail.com");
+//$collection = $db->registration1;
+//$collection->insertOne( $regist );

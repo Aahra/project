@@ -16,6 +16,7 @@
         }
 
         #label{
+            display: block;
             height: 350px;
             width: 50%;
             float: left;
@@ -34,15 +35,32 @@
         }
         input
         {
-            background-color: bisque;
+            padding: 7px 8px ;
 
-            border: hidden;
+            background-color: #c4e3f3;
+
+            box-shadow: #ebebec;
+
+
+        }
+        label:focus
+        {
+            background-color: bisque;
+        }
+        label:hover{
+            background-color: #c4e3f3;
+        }
+        input:hover{
+            background-color:bisque;
         }
 
         label {
+            display: inline-block;
+            text-align: right;
             margin-top: 5px;
             color: coral;
             padding: 5px 5px 5px 5px ;
+            box-sizing: border-box;
 
             width: 200px;
         }

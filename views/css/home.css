@@ -1,0 +1,42 @@
+#control{
+    height:350px;
+    width: 50%;
+    float: left;
+}
+#formhead{
+    background-color: #1cc7ff;
+    height: 50px;
+    width: 100%;
+}
+
+#label{
+    height: 350px;
+    width: 50%;
+    float: left;
+}
+#header
+{
+    background-color: #888888;
+    width: 100%;
+    height: 50px;
+
+}
+#form{
+    width: 800px;
+    height: 500px;
+    background-color:#ebebec;
+}
+input
+{
+    background-color: bisque;
+
+    border: hidden;
+}
+
+label {
+    margin-top: 5px;
+    color: coral;
+    padding: 5px 5px 5px 5px ;
+
+    width: 200px;
+}

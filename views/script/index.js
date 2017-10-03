@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+//alert("hell yeah");
+>>>>>>> d01f22b5422893dc5b9040ca28865d190f4587da
 var index=0;
 slide();
 function slide() {
@@ -18,4 +22,8 @@ function slide() {
     setTimeout(slide,2000);
 
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d01f22b5422893dc5b9040ca28865d190f4587da

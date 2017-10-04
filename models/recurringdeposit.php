@@ -11,7 +11,7 @@ class RecurringDeposit
     var $rd_id;
     var $bank_name;
     var $tenure;
-    var $insterestrate;
+    var $interestrate;
     var $amount;
     var $maturityamount;
     var $range;

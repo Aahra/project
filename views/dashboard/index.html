@@ -1,0 +1,67 @@
+<?php
+print_r($_SESSION);
+?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <script src="scripts/global.js"></script>
+
+
+
+</head>
+<body>
+
+<div id="header">
+<div class="logo">
+    <ul>
+        <li>
+            <img src="images/hm.png">
+            <a href="#">Clever<span>Investor</span></a>
+
+
+        </li>
+    </ul>
+
+
+</div>
+    <div class="man">
+        <img src="images/man.png">
+    </div>
+</div>
+<!--<div id="progress" >
+    <div class="first">1</div><div class="second">2</div><div class="third">3</div><div class="fourth">4</div><div></div>
+
+
+
+</div>-->
+<div id="container">
+    <div class="sidepanel">
+
+<ul id="nav">
+    
+    <li>
+        <a href="#" class="selected"><img src="images/home.png">&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+    </li>
+    <li>
+       <a href="#" onclick="change('profile')"><img src="images/nav.png">&nbsp;&nbsp;&nbsp;&nbsp;Profile</a>
+    </li>
+    <li>
+        <a href="#" onclick="change('savedplans')"><img src="images/nav.png">&nbsp;&nbsp;&nbsp;&nbsp;Saved Plans</a>
+    </li>
+    <li>
+        <a href="#" onclick="change('recentlyviewed')"><img src="images/nav.png">&nbsp;&nbsp;&nbsp;&nbsp;Recently Viewed</a>
+    </li>
+    <li>
+        <a href="#" onclick="change('contactagent')"><img src="images/nav.png">&nbsp;&nbsp;&nbsp;&nbsp;Contact Agent</a>
+    </li>
+</ul>
+
+    </div>
+    <div id="content" class="content">
+       content pane
+    </div>
+</div>
+</body>
+</html>

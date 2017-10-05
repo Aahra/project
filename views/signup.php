@@ -17,19 +17,19 @@
 <body class="container">
 <div style="width: 30%;"></div>
 <div class="container carousel "  align="center" style="width:40%;border:outset" >
-    <form class="form-actions">
+    <form class="form-actions" method="post" action="../register.php">
         <h2>Sign Up</h2>
         <div>
-            <label>Name</label>
-            <input  name="Name" type="text">
+            <label>First Name</label>
+            <input  name="firstname" type="text">
+        </div><div>
+            <label>Last Name</label>
+            <input  name="lastname" type="text">
         </div>
-        <div>
-            <label>D.O.B</label>
-            <input  name="D.O.B" type="text">
-        </div>
+
         <div>
             <label>Email</label>
-            <input  name="Email" type="text">
+            <input  name="email" type="text">
         </div>
         <div>
             <label>Password</label>
@@ -38,7 +38,15 @@
         </div>
         <div>
             <label>Confirm Password</label>
-            <input  name="confirm_password" type="password">
+            <input  name="confirmpassword" type="password">
+
+        </div><div>
+            <div>
+                <label>D.O.B</label>
+                <input  name="dob" type="text">
+            </div>
+            <label>City</label>
+            <input  name="city" type="text">
 
         </div>
         <div>

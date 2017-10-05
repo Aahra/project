@@ -7,15 +7,15 @@
  */
 require 'dbconfig.php';
 
-$db=$con->userdetails;
-$collection=$db->register;
-$col=$db->check;
-$regist=array("name"=>"check");
+$db=$con->aahra;
+$collection=$db->investor;
+//$col=$db->check;
+//$regist=array("name"=>"check");
 //$col->insertOne($regist);
 //echo "connection";
 //print_r($collection);
 //$record=$collection->find(['name'=>'amit']);
-$record = $collection->findOne( [ 'email' =>$_POST['email'],'password'=>$_POST['password']] );
+$record = $collection->findOne( [ 'Email_id' =>$_POST['email'],'Password'=>$_POST['password']] );
 //$record = $col->find( [ 'name' =>'amit'] );
 //echo $record['name'].":</br>1 record found";
 //echo $record['name'];
@@ -23,13 +23,16 @@ $record = $collection->findOne( [ 'email' =>$_POST['email'],'password'=>$_POST['
 
 //echo $record['name'], ': ', $record['email']."<br>";
 
-if($record['email']!=null&&$record['password']!=null)
+if($record['Email_id']!=null&&$record['Password']!=null)
 {
 
 
     echo "h3ll";
     //print_r($record['email']);
-    header("Location: http://localhost/project/front/home.html");
+    session_start();
+    $_SESSION['email']=$_POST['email'];
+    $_SESSION['password']=$_POST['password'];
+    header("Location: http://localhost/project/views/dashboard/index.html");
     exit();
 
 }

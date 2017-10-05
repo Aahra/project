@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+
+}
+iframe{
+    height: 650px;
+    width: 1000px;
+
+}
+div#header{
+    width:100%;
+    height: 50px;
+    background-color:lightslategray;
+    margin: 0 auto;
+}
+div#header  img{
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+div#header .logo img{
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+div#header div.logo ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo a{
+    font-size: 1.6em;
+}
+.logo{
+    margin-top: 7px;
+    float: left;
+    margin-left: 15px;
+
+    }
+.logo a span{
+    font-weight:300;
+}
+div#container
+{
+    width: 100%;
+height: 100%;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 0px;
+float: left;
+}
+.sidepanel
+{
+    width: 250px;
+    height: 100%;
+    background-color: #171717;
+    float: left;
+}
+.content
+{
+    width: auto;
+    height: 100%;
+    margin-left: 250px;
+
+    padding: 15px;
+
+}
+ul#nav{
+
+
+}
+ul #nav li{
+    list-style: none;
+}
+ul#nav li a{
+    display: block;
+    padding: 10px;
+
+    color: snow;
+
+    border-bottom: 1px solid #0A0A0A;
+    -webkit-transition: 3s;
+    -moz-transition: 0.2s;
+
+}
+ul#nav li a.selected
+{
+    background-color:#030303 ;
+}
+ul#nav li a img
+{
+    width: 20px;
+    height: 20px;
+    float: left;
+
+}
+ul#nav li a:hover {
+background-color: #030303;
+    padding-left: 30px;
+
+
+}
+/*div#progress
+{
+    height: 5px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+div#progress div.first{
+    float: left;
+
+}
+div#progress div.second{
+    float: left;
+
+}
+div#progress div.third{
+     float: left;
+
+ }
+div#progress div.fourth{
+    float: left;
+
+}*/

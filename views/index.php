@@ -38,21 +38,7 @@
 <div class="navbar">
 <ul>
 
-    <li id="navg">
-        <a href="#">Home</a>
-    </li>
-    <li id="navg">
-        <a href="#">Contact</a>
-    </li>
-    <li id="navg">
-        <a href="signup.php">Signup</a>
-    </li>
-    <li id="navg">
-        <a href="login.php">Login</a>
-    </li>
-    <li id="navg">
-        <a href="#">Search</a>
-    </li >
+
 
     <li>
         <a href="#">Home</a>
@@ -79,9 +65,6 @@
 
 <div id="slideshow">
 
-
-
-       <img class="slides" src="../images/ek.jpeg">
 
         <img class="slides" src="../images/ek.jpeg">
 
